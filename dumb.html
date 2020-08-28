@@ -1,45 +1,20 @@
 <!DOCTYPE html>
 
 <head>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
-    <script>
-        function addClapToText() {
-            var x = document.getElementById("myText").value;
-
-            var betterText = "";
-            var capitalFlag = true;
-            for (var i = 0; i < x.length; i++) {
-                if (x.charAt(i) == ' ') {
-                    betterText += "&#x1F44F;";
-                    capitalFlag = true;
-                } else {
-                    if (capitalFlag) {
-                        betterText += x.substring(i, i + 1).toUpperCase();
-                        capitalFlag = false;
-                    } else {
-                        betterText += x.charAt(i);
-                    }
-                }
-            }
-
-            document.getElementById("clap").innerHTML = betterText;
-        }
-    </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+  <script src="scripts.js"></script>
 </head>
 <html>
-
-<body>
+  <body>
     <div>
-        <h1>Your&#x1F44F;Text&#x1F44F;With&#x1F44F;Claps</h1>
+      <h1>Your&#x1F44F;Text&#x1F44F;With&#x1F44F;Claps</h1>
 
-        <input type="text" id="myText" value="Your text...">
+      <input type="text" id="myText" value="Your text..." />
 
-        <button onclick="addClapToText()">&#x1F44F; My Text</button>
+      <button onclick="addClapToText()">&#x1F44F; My Text</button>
 
-        <p id="clap"></p>
+      <p id="clap"></p>
     </div>
-
-</body>
-
+  </body>
 </html>
