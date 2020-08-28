@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kevin K Gomez | Developer</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Heebo:300,900"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      function toggleMenu() {
+        var sidebarClasses = document.getElementById("sidebar").classList;
+
+        if (sidebarClasses.contains("sidebar--open")) {
+          sidebarClasses.remove("sidebar--open");
+        } else {
+          sidebarClasses.add("sidebar--open");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="c-header">
+      <div class="header">
+        <div class="header__logo">
+          <a href="/" class="menu-link-h"> KKG </a>
+        </div>
+        <div class="header__menu">
+          <a
+            href="#"
+            class="menu-link-h header__menu-link"
+            onclick="toggleMenu()"
+          >
+            Menu
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="c-sidebar">
+      <div class="sidebar sidebar--position" id="sidebar">
+        <div class="sidebar__logo">
+          <a href="/" class="menu-home-link">
+            <h1>KEVIN K GOMEZ</h1>
+          </a>
+        </div>
+        <div class="sidebar__menu">
+          <a href="vo.html" class="menu-link">
+            <div class="option">
+              <img
+                class="option__icon"
+                src="img/icons/blacksmoke_icon_vo.png"
+              />
+              Voice Over
+            </div>
+          </a>
+          <a href="dev.html" class="menu-link">
+            <div class="option">
+              <img
+                class="option__icon"
+                src="img/icons/blacksmoke_icon_cs.png"
+              />
+              Developer
+            </div>
+          </a>
+          <a href="video.html" class="menu-link">
+            <div class="option">
+              <img
+                class="option__icon"
+                src="img/icons/blacksmoke_icon_vd.png"
+              />
+              Video Editor
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="c-main">
+      <div class="main">
+        <h1>Kevin K Gomez writes code.</h1>
+        <div class="main__text">
+          <p>
+            Full stack web developer, with experience in .NET and Ember.js. Also
+            experience in Java, C++.
+          </p>
+          <p>
+            I studied at University of Illinois and, in 2016, received my B.S.
+            in Computer Science (and a Minor in Art + Design).
+          </p>
+          <p>
+            Some of the projects I worked on there include full stack work on an
+            <a href="https://distributedmuseum.illinois.edu/" target="_blank"
+              >online museum</a
+            >, virtual reality
+            <a
+              href="https://courses.engr.illinois.edu/cs498sl3/sp2017/projects/fa2015/project13Mindcraft.jpg"
+              target="_blank"
+              >Minecraft psychology experiments</a
+            >, and a Java applet where two worms
+            <a
+              href="https://github.com/kkgomez2/Flatworm#flatworm"
+              target="_blank"
+              >fight each other</a
+            >.
+          </p>
+          <p>
+            Passionate about visual appealing user-centered experiences.
+            Enthralled when code finally does the thing it's supposed to. (And
+            when it does it efficiently? BONUS!)
+          </p>
+          <p>
+            Also equally passionate about sometimes writing very
+            <a href="dumb.html" target="_blank">dumb snippets of code</a> on my
+            free time.
+          </p>
+          <p>
+            Currently a software developer at
+            <a href="https://seismic.com/" target="_blank">Seismic</a>.
+          </p>
+        </div>
+        <div>
+          <a href="media/Kevin Gomez Dev Resume (2016).pdf" target="_blank"
+            ><b>Resume</b></a
+          >
+          |
+          <a href="https://www.linkedin.com/in/kkgomez2" target="_blank"
+            ><b>LinkedIn</b></a
+          >
+          |
+          <a href="https://github.com/kkgomez2" target="_blank"
+            ><b>GitHub</b></a
+          >
+        </div>
+        <div>
+          <a href="mailto:kkristoffergomez@gmail.com"
+            >kkristoffergomez@gmail.com</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

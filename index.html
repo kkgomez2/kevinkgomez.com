@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kevin K Gomez</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Heebo:300,900"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      function toggleMenu() {
+        var sidebarClasses = document.getElementById("sidebar").classList;
+
+        if (sidebarClasses.contains("sidebar--open")) {
+          sidebarClasses.remove("sidebar--open");
+        } else {
+          sidebarClasses.add("sidebar--open");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="c-header">
+      <div class="header">
+        <div class="header__logo">
+          <a href="/" class="menu-link-h"> KKG </a>
+        </div>
+        <div class="header__menu">
+          <a
+            href="#"
+            class="menu-link-h header__menu-link"
+            onclick="toggleMenu()"
+          >
+            Menu
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="c-sidebar">
+      <div class="sidebar sidebar--position" id="sidebar">
+        <div class="sidebar__logo">
+          <a href="/" class="menu-home-link">
+            <h1>KEVIN K GOMEZ</h1>
+          </a>
+        </div>
+        <div class="sidebar__menu">
+          <a href="vo.html" class="menu-link">
+            <div class="option">
+              <img
+                class="option__icon"
+                src="img/icons/blacksmoke_icon_vo.png"
+              />
+              Voice Over
+            </div>
+          </a>
+          <a href="dev.html" class="menu-link">
+            <div class="option">
+              <img
+                class="option__icon"
+                src="img/icons/blacksmoke_icon_cs.png"
+              />
+              Developer
+            </div>
+          </a>
+          <a href="video.html" class="menu-link">
+            <div class="option">
+              <img
+                class="option__icon"
+                src="img/icons/blacksmoke_icon_vd.png"
+              />
+              Video Editor
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="c-main">
+      <div class="main">
+        <h1>Kevin K Gomez does stuff.</h1>
+        <div class="main__text">
+          <p>
+            I can make words with my voice, lines of code, .mp4 files, and
+            pimento cheese.
+          </p>
+          <p>
+            Please contact me if you'd like me to make any of those things. I
+            would love to.
+          </p>
+        </div>
+        <div class="main__contact">
+          <div>
+            <a href="media/Kevin Gomez Dev Resume (2016).pdf" target="_blank"
+              ><b>Dev Resume</b></a
+            >
+            |
+            <a href="media/Kevin Gomez Actors Resume (2020).pdf" target="_blank"
+              ><b>Actors Resume</b></a
+            >
+            |
+            <a
+              href="https://soundcloud.com/smithu-1/sets/voice-over-demos"
+              target="_blank"
+              ><b>Voice Demos</b></a
+            >
+          </div>
+          <div>
+            <a href="mailto:kkristoffergomez@gmail.com">Email</a> |
+            <a href="mailto:kevinkgomezvo@gmail.com">Voice Over Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
