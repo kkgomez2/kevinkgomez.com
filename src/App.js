@@ -1,64 +1,20 @@
 import React from "react";
-import logo from "./logo.svg";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <div class="c-header">
-          <div class="header">
-            <div class="header__logo">
-              <a href="/" class="menu-link-h">
-                {" "}
-                KKG{" "}
-              </a>
-            </div>
-            <div class="header__menu">
-              <a
-                href="#"
-                class="menu-link-h header__menu-link"
-                onclick="toggleMenu()"
-              >
-                Menu
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="c-sidebar">
-          <div class="sidebar sidebar--position" id="sidebar">
-            <div class="sidebar__logo">
-              <a href="/" class="menu-home-link">
-                <h1>KEVIN K GOMEZ</h1>
-              </a>
-            </div>
-            <div class="sidebar__menu">
-              <a href="vo.html" class="menu-link">
-                <div class="option">
-                  <img
-                    class="option__icon"
-                    src="img/icons/blacksmoke_icon_vo.png"
-                  />
-                  Voice Over
-                </div>
-              </a>
-              <a href="dev.html" class="menu-link">
-                <div class="option">
-                  <img
-                    class="option__icon"
-                    src="img/icons/blacksmoke_icon_cs.png"
-                  />
-                  Developer
-                </div>
-              </a>
-            </div>
-          </div>
+        <div>
+          <Sidebar/>
         </div>
         <div class="c-main">
           <div class="main">
             <h1>Kevin K Gomez does stuff.</h1>
             <div class="main__text">
               <p>
-                I can make words with my voice, lines of code, and <a href="https://youtu.be/x5-QoCicNfI">spinach puffs</a>.
+                I can make words with my voice, lines of code, and{" "}
+                <a href="https://youtu.be/x5-QoCicNfI">spinach puffs</a>.
               </p>
               <p>
                 Please contact me if you'd like me to make any of those things.
