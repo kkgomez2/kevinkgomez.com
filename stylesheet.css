@@ -91,7 +91,14 @@ h1, h2, h3, h4 {
     flex-direction: column;
 }
 
-.main__media, .main__text {
+.main__media {
+    max-width: 650px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.main__text {
     max-width: 650px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -162,6 +169,14 @@ h1, h2, h3, h4 {
 }
 
 .main__contact {}
+
+.main__contact div {
+    padding-bottom: 5px;
+}
+
+.main__contact a {
+    font-weight: bold;
+}
 
 .menu-link, .menu-home-link, .menu-link-h {
     display: flex;
